@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Cabin", sans-serif;
+}
+
+header li{
+    display: inline;
+    margin-right: 30px;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
