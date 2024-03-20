@@ -11,16 +11,94 @@ header .container{
     justify-content: space-between;
     align-items: center;
     font-family: "Cabin", sans-serif;
+    height: 60px;
+}
+
+h2 {
+    font-family: "Cabin", sans-serif;
+}
+
+header h1 {
+    margin-left: 30px;
+    font-size: 38px;
+    font-weight: normal;
 }
 
 header li{
     display: inline;
     margin-right: 30px;
+    font-size: 22px;
+    position: relative;
 }
 
-
-header ul li a{
+header nav a{
     text-decoration: none;
     color: white;
+}
 
+header nav ul {
+    margin-right: 25px;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+.cidades .container{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    margin: 5vh auto 0 auto;
+}
+
+.cidades img{
+    border-radius: 25px;
+}
+
+.cidades h2,
+.cidades p {
+    margin-left: 30px;
+}
+
+.cidades h2{
+
+}
+
+.cidades p{
+    width: 400px;
+    height: 150px;
+}
+
+img {
+    height: 300px;
+}
+
+p {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.genebra {
+    text-align: right;
+}
+
+.genebra h2,
+.genebra p {
+    margin-right: 30px;
+}
+.genebra {
+    justify-items: right;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
