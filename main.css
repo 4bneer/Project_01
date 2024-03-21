@@ -14,7 +14,7 @@ header .container{
     height: 60px;
 }
 
-h2 {
+h2, h3 {
     font-family: "Cabin", sans-serif;
 }
 
@@ -102,3 +102,20 @@ p {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.teste2 {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+
+
